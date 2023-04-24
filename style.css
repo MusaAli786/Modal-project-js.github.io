@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body{
+    background-image: url(./images/istockphoto-1448124439-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 790px;
+}
+.modalProjectMain{
+    background-color: #fff;
+    width: 700px;
+    height: 550px;
+    margin: auto;
+    margin-top: 135px;
+    text-align: center;
+    padding-top: 80px;
+    border-radius: 10px;
+    font-size: 35px;
+}
+.modalButton{
+    width: 200px;
+    height: 40px;
+    margin-top: 150px;
+    background-color: rgba(8, 112, 157, 0.792);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+.modalButton:hover{
+    background-color: #fff;
+    border: 2px solid rgba(8, 112, 157, 0.792);
+    color: rgba(8, 112, 157, 0.792);
+}
+.modalContent{
+    width: 700px;
+    height: 320px;
+    background-color: #fff;
+    position: relative;
+    margin: -520px 0px 0px 370px;
+    line-height: 25px;
+    padding: 15px;
+}
+.contentHiden{
+    display: none;
+}
+.closeButton{
+    margin: 0px 0px 0px 630px;
+    font-size: 40px;
+    width: 50px;
+    color: red;
+    border: none;
+    font-weight: bold;
+}
+.blureBackground{
+    position: absolute;
+    background-color: rgb(100, 167, 226);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+.hidden{
+    display: none;
+}
